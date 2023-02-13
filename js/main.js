@@ -1,5 +1,5 @@
 function load () {
-	player = getStartPlayer()
+  player = getStartPlayer()
 
-	loadVue()
+  loadVue()
 }

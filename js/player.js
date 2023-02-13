@@ -1,7 +1,7 @@
 var player;
 
 function getStartPlayer() {
-	return {
-		mana: 0,
-	}
+  return {
+    mana: 0,
+  }
 }
