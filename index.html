@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<head>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+  <script src="js/main.js"></script>
+  <script src="js/player.js"></script>
+	<script src="js/vue.js"></script>
+</head>
+
+<body onload="load()">
+	<div id="app">
+		<h2>Mana System</h2>
+		<p>Mana: {{ player.mana }}</p>
+		<p>
+			<button @click="addOneToMana">
+				Add 1 to Mana
+			</button>
+			<button @click="doubleMana">
+				Double Mana
+			</button>
+		</p>
+	</div>
+</body>
